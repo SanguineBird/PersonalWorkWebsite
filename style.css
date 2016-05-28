@@ -1,0 +1,39 @@
+/* templatemo_style.css
+Style Sheet for professional website of Meghan K. Moore
+Created by Meghan K. Moore
+Last Update: March 20, 2016 */
+
+body {
+    background: #ffffff url("images/Background.png") repeat-y fixed;
+    background-size: cover;
+    font-family: 'Oswald', arial, sans-serif;
+    color: #808080;
+    text-align: center;
+}
+
+.profile-pic {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  /*copied from W3: http://www.w3schools.com/cssref/css3_pr_align-items.asp*/
+  /*will change when bootstrap is added*/
+  max-width: 300px;
+}
+
+.elevator-pitch {
+  text-align: center;
+}
+
+ul#external-links {
+  list-style-type: none; /*removes bullets*/
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  max-width: 750px;
+}
+
+ul#external-links li {
+  display: inline;
+  max-width: 30px;
+}
